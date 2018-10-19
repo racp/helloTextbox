@@ -1,0 +1,7 @@
+{
+  "name": "helloTextbox",
+  "short_name": "helloTextbox",
+  "description": "WebComponent TextBox",
+  "start_url": "/",
+  "display": "standalone"
+}
