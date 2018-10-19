@@ -8,6 +8,7 @@
       }
     </style>
     <h2>Hello [[prop1]]!</h2>
+    <h3>Version :  [[version]]</h3>
   </template>
 
   <script>
@@ -25,6 +26,10 @@
           prop1: {
             type: String,
             value: 'helloTextbox-app'
+          },
+          version: {
+            type: String,
+            value: '1.0.1'
           }
         };
       }
